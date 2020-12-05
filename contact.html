@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/NASA_logo.svg">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Space Exploration</title>
+</head>
+
+<body>
+    <!--body-->
+    <header>
+        <!--headerNav-->
+        <div class="navigation">
+            <div class="navigationImage">
+                <a href="index.html">
+                    <img src="Images/NASA_logo.svg" alt="logoNasa" class="logoNasa">
+                </a>
+                <a href="index.html">
+                    <img src="Images/SpaceX.svg" alt="logoNasa" class="logoNasa2">
+                </a>
+            </div>
+            <label for="toggle"> &#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <div class="menu-nav">
+                <a href="index.html">Home</a>
+                <a href="experience.html">Experience Space</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="live">Contact</a>
+            </div>
+        </div>
+    </header>
+    <!--headerImage-->
+    <div class="heads">
+        <img src="Images/Astronaut header.jpg" alt="astronaut">
+    </div>
+    <!--validationText-->
+    <h1 class="validated"> </h1>
+    <div class="questionForm">
+        <h1>need some answers?</h1>
+        <p class="ques-p">Feel Free to contact us and send your queries.</p>
+    </div>
+    <!--contactForm-->
+    <section class="contactInfo">
+        <h2 class="contactInfoH2">Contact Form</h2>
+        <form id="contactForm">
+            <div>
+                <label for="name:"> </label>
+                <input type="text" id="fullName" placeholder="Name:" />
+                <div id="fullNameError" class="error">Name Required</div>
+            </div>
+            <div>
+                <label for="subject"> </label>
+                <input type="text" id="subject" placeholder="Subject:" />
+                <div id="subjectNameError" class="error">Please enter at least 10 character</div>
+            </div>
+            <div>
+                <label for="email"> </label>
+                <input type="text" id="email" placeholder="E-mail address:" />
+                <div id="emailNameError" class="error">Your e-mail must be valid</div>
+            </div>
+            <div>
+                <div>
+                    <label for="address"> </label>
+                    <input type="text" id="address" placeholder="Enter address:" />
+                    <div id="addressNameError" class="error">Address is not valid</div>
+                </div>
+                <div>
+                    <button class="submitButton">Submit</button>
+                </div>
+        </form>
+    </section>
+    <!--footer-->
+    <footer class=" outerfooter">
+        <div class="contact-us">
+            <a>For any inquiries?</a>
+            <p class="pa">call us</p>
+            <p class="pa">chat with us</p>
+            <p class="pa">send us e-mail</p>
+        </div>
+        <div class="social-media">
+            <p>Connect to us </p>
+            <p class="follow">Follow us with the latest news and updates about Space-X.</p>
+            <a href="https://www.facebook.com/Live-SpaceX-Launch-2020-100321598378816">
+                <img src="Images/icons/fb.png">
+            </a>
+            <a href="https://www.instagram.com/spacex/">
+                <img src="Images/icons/instagram.png">
+            </a>
+            <a href="https://www.linkedin.com/company/spacex/">
+                <img src="Images/icons/linked.png">
+            </a>
+            <a href="https://www.youtube.com/user/spacexchannel">
+                <img src="Images/icons/you tube.png">
+            </a>
+        </div>
+        <div class="newsletter">
+            <p id="top">Get The Latest email and updtes.</p>
+            <a href="https://login.yahoo.com">
+                <input type="email" name="" value="" placeholder="Your name">
+                <input type="email" name="" value="" placeholder="Enter your e-mail">
+                <button type="button" name="button">Subscribe</button>
+            </a>
+        </div>
+    </footer>
+    <footer class="innerfooter">
+        <p>&copy2020 Noroff HTML CSS and JAVA Christopher Taal Project Exam</p>
+    </footer>
+    <script src="java/contact.js"></script>
+</body>
+
+</html>

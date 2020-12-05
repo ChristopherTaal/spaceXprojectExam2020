@@ -1,0 +1,146 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Diplomata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <link rel="shortcut icon" type="image/x-icon" href="Images/NASA_logo.svg">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Space Exploration</title>
+</head>
+
+<body>
+    <!--body-->
+    <!--navigationWithHamburgerMeny-->
+    <header>
+        <div class="navigation">
+            <div class="navigationImage">
+                <a href="index.html">
+                    <img src="Images/NASA_logo.svg" alt="logoNasa" class="logoNasa">
+                </a>
+                <a href="index.html">
+                    <img src="Images/SpaceX.svg" alt="logoNasa" class="logoNasa2">
+                </a>
+            </div>
+            <label for="toggle"> &#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <div class="menu-nav">
+                <a href="index.html">Home</a>
+                <a href="experience.html" class="live">Experience Space</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+    <!--Header-->
+    <div class="heads">
+        <img src="Images/launch-site-header.jpg">
+    </div>
+    <div class="expSpaceTitle">
+        <h2> experience space</h2>
+        <p>Explore and see the wonders of the universe.</p>
+    </div>
+    <!--SpaceStationLocation(ISS)-->
+    <div class="spaceStationLocation">
+        <div class="location1">
+            <h3 class="locationIssHead"> international space station</h3>
+            <div id="issMap"> </div>
+            (lattitude: <span id="lat"></span>)<br>
+            (longitude: <span id="lon"></span>)<br>
+            <p>The International Space Station orbits 248 miles (400 kilometers) above Earth, and can be seen from the
+                ground using a new interactive map called Spot the Station. The International Space Station completes
+                multiple orbits around Earth every day, and now you can track the space lab as it passes overhead. </p>
+        </div>
+        <!--dragonSpace-->
+        <div class="dragonSpace">
+            <h3>inside the dragon space capsule</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j2C9DYYVEBk" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae dui sed mauris molestie varius.
+                Nunc euismod, dui non ullamcorper finibus.</p>
+            <button class="dragonSpaceButton">View More</button>
+            <p class="line"></p>
+        </div>
+    </div>
+    <!--teslaOnSpace-->
+    <div class="teslaUp">
+        <div class="teslaUp1">
+        </div>
+        <div class="teslaUp2">
+            <h3>tesla road tester</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sX1Y2JMK6g8" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae dui sed mauris molestie varius.
+                Nunc euismod, dui non ullamcorper finibus.</p>
+            <button class="teslaUpButton">View More</button>
+            <p class="line"></p>
+        </div>
+    </div>
+    <!--falconHeavy-->
+    <div class="falconHeavy">
+        <div class="falconHeavy1">
+        </div>
+        <div class="falconHeavy2">
+            <h3>inside the dragon space capsule</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4TXCZG_NEY" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae dui sed mauris molestie varius.
+                Nunc euismod, dui non ullamcorper finibus.</p>
+            <button class="falconHeavy2Button">View More</button>
+            <p class="line"></p>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class=" outerfooter">
+        <div class="contact-us">
+            <a>For any inquiries?</a>
+            <p class="pa">call us</p>
+            <p class="pa">chat with us</p>
+            <p class="pa">send us e-mail</p>
+        </div>
+        <div class="social-media">
+            <p>Connect to us </p>
+            <p class="follow">Follow us with the latest news and updates about Space-X.</p>
+            <a href="https://www.facebook.com/Live-SpaceX-Launch-2020-100321598378816">
+                <img src="Images/icons/fb.png">
+            </a>
+            <a href="https://www.instagram.com/spacex/">
+                <img src="Images/icons/instagram.png">
+            </a>
+            <a href="https://www.linkedin.com/company/spacex/">
+                <img src="Images/icons/linked.png">
+            </a>
+            <a href="https://www.youtube.com/user/spacexchannel">
+                <img src="Images/icons/you tube.png">
+            </a>
+        </div>
+        <div class="newsletter">
+            <p id="top">Get The Latest email and updtes.</p>
+            <a href="https://login.yahoo.com">
+                <input type="email" name="" value="" placeholder="Your name">
+                <input type="email" name="" value="" placeholder="Enter your e-mail">
+                <button type="button" name="button">Subscribe</button>
+            </a>
+        </div>
+    </footer>
+    <!--innerFooter-->
+    <footer class="innerfooter">
+        <p>&copy2020 Noroff HTML CSS and JAVA Christopher Taal Project Exam</p>
+    </footer>
+    <script src="java/experience.js"></script>
+</body>
+
+</html>
